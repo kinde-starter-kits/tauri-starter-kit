@@ -14,12 +14,20 @@ coverage/
 # Generated at runtime
 *.log
 .cache
+.vite
 
 # Personal files
 .idea
 
 # System files
 .DS_Store
+
+# Tauri / Rust build output
+/src-tauri/target/
+
+# Env
+.env
+*.local
 
 # ---------------------------------------------------------------------
 # Add specific rules here…
