@@ -7,6 +7,7 @@ A complete starter kit for building desktop applications with React, Tauri, and 
 ## Overview
 
 This starter kit provides a complete foundation for building desktop applications using:
+
 - **React** - Frontend framework
 - **Tauri** - Desktop app framework (Rust-based)
 - **Kinde** - Authentication and user management
@@ -25,12 +26,14 @@ Before you begin, ensure you have the following installed:
 ## Quick Start
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/kinde-starter-kits/tauri-starter-kit.git
    cd tauri-starter-kit
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    # or
@@ -38,11 +41,13 @@ Before you begin, ensure you have the following installed:
    ```
 
 3. **Set up environment variables:**
+
    ```bash
    cp .env_sample .env
    ```
-   
+
    Update the `.env` file with your Kinde configuration:
+
    ```env
    VITE_KINDE_DOMAIN=your-domain.kinde.com
    VITE_KINDE_CLIENT_ID=your-client-id
@@ -99,6 +104,7 @@ The built application will be available in `src-tauri/target/release/bundle/`.
 ### Tauri Configuration
 
 The main Tauri configuration is in `src-tauri/tauri.conf.json`. You can customize:
+
 - App metadata (name, version, description)
 - Window settings (size, title, etc.)
 - Security settings
@@ -107,6 +113,7 @@ The main Tauri configuration is in `src-tauri/tauri.conf.json`. You can customiz
 ### Kinde Configuration
 
 Configure your Kinde application in the `.env` file. Make sure to:
+
 1. Set up your Kinde application at [kinde.com](https://kinde.com)
 2. Configure the redirect URLs to match your development and production URLs
 3. Enable the necessary authentication flows
@@ -122,6 +129,7 @@ Configure your Kinde application in the `.env` file. Make sure to:
 ### Authentication Flow
 
 The app uses Kinde's React SDK for authentication:
+
 - `LoggedOut.tsx` - Handles login and registration
 - `LoggedIn.tsx` - Displays user information and logout functionality
 
