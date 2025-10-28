@@ -1,0 +1,30 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "add-codeowners",
+    "add-codeowners-1761092390",
+    "chore/codeowners-deps-20251121-1558",
+    "chore/standardize-codeowners",
+    "main",
+    "remove-old-codeowners-file",
+    "renovate/test"
+  ],
+  "parent": {
+    "add-codeowners": "main",
+    "add-codeowners-1761092390": "add-codeowners",
+    "chore/codeowners-deps-20251121-1558": "main",
+    "chore/standardize-codeowners": "main",
+    "main": null,
+    "remove-old-codeowners-file": "main",
+    "renovate/test": "main"
+  },
+  "order": [
+    "main",
+    "add-codeowners",
+    "chore/codeowners-deps-20251121-1558",
+    "chore/standardize-codeowners",
+    "remove-old-codeowners-file",
+    "renovate/test",
+    "add-codeowners-1761092390"
+  ]
+}
